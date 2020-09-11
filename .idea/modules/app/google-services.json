@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "50655751528",
+    "firebase_url": "https://skill-4022b.firebaseio.com",
+    "project_id": "skill-4022b",
+    "storage_bucket": "skill-4022b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50655751528:android:2637ece8ec14e32ff8badd",
+        "android_client_info": {
+          "package_name": "com.example.skill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50655751528-7d5v0ior26ejl01aei8ep778b3mcaq6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skill",
+            "certificate_hash": "407b8dfa58a7de908149d04cbd75bd613eba1102"
+          }
+        },
+        {
+          "client_id": "50655751528-3jfa708k7ouavl895nfu9hdqs35ecv22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNTiRnHztS1x18az4h2mAhZ7x3ihZ7BvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50655751528-3jfa708k7ouavl895nfu9hdqs35ecv22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/newacc"
+                android:layout_below="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create New Account"
+                android:textSize="35sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#065CA6"
+                android:layout_marginBottom="20dp"
+                />
+            <EditText android:id="@+id/frst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:textSize="30sp"
+                android:layout_below="@+id/newacc"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/last"
+                android:hint="Last Name"
+                android:layout_below="@+id/newacc"
+                android:layout_toRightOf="@+id/frst"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="30sp"/>
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email id"
+                android:textSize="30dp"
+                android:layout_below="@+id/last"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recov"
+                android:hint="Mobile No"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/no"/>
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="select city"
+                android:layout_marginTop="30dp"
+                android:textSize="30sp"
+                android:layout_below="@+id/no"/>
+            <Spinner
+                android:id="@+id/loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/no"
+                android:layout_marginTop="50dp"
+                android:layout_alignRight="@+id/city"
+                android:contextClickable="true"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loc"
+                android:hint="Password"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/passw"/>
+            <EditText
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passw"
+                android:hint="Confirm Password"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mail"
+                android:id="@+id/recov"
+                android:hint="Recovery Email id"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                />
+            <Button
+                android:id="@+id/reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rigister"
+                android:layout_below="@id/confirm"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
